@@ -1,0 +1,27 @@
+
+body {
+  background-color: black;
+	font-family:"Merriweather", serif;}
+
+
+h1 {
+	border: 3px dotted green;
+	background-color: white;
+	color: #ffcccc;}
+
+p {line-height: 40px;
+  letter-spacing: 5px;
+  color: #ffcccc; }
+
+p1 {color: #ffcccc;}
+
+a { color: #ffcccc }
+
+#header {color: purple;
+  font-family: Helvetica, sans-serif;}
+
+.phone-number {font-weight: bold;}
+
+.international {font-style: italic;}
+  		
+ 	
