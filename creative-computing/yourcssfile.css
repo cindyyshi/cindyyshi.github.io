@@ -1,0 +1,33 @@
+body {
+    background-color: #DDDDDD;
+    font-family:"futura";
+}
+
+h1 {color: white;
+
+}
+ul{color:white;}
+
+p{color: white;}
+
+
+#left-column{background-color:#001f3f;
+	float: left;
+	padding:5%;
+	width:40%;
+	position: absolute;
+	
+}
+
+#right-column{background-color:#FF4136;
+	float: right;
+	width:40%;
+	padding:5%;
+	position: relative;
+}
+#footer{background-color:#3D9970;
+	position:absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+ }
