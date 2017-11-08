@@ -1,28 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script>
-function startTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('txt').innerHTML =
-    h + ":" + m + ":" + s;
-    var t = setTimeout(startTime, 500);
-}
-function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-    return i;
-}
-</script>
+<link rel="stylesheet" type="text/css" href="clock.css">
+  
+
+
 </head>
-
-<body onload="startTime()">
-
+ 
+<body>
+ 
 <div id="txt"></div>
+<div class="square">
+<div class="rectangle">
+<div class="circle">
+<div class="oval">
+</div>
+<div class="triangle-up">
+<div class="triangle-down">
+<div class="triangle-left">
+<div class="trapezoid">
+</div>
+<div class="star-five">
+</div>
+<div class="triangle-bottomleft">
+</div>
+<div class="triangle-bottomright">
+</div>
+<div class="parallelogram">
+</div>
+<div class="pentagon">
+</div>
+<div class="triangle-left1">
+</div>
+<div class="square1">
+</div>
+<div class="triangle-down1">
+</div>
+<div class="triangle-bottomleft1">
+</div>
+<div class="circle1">
+</div>
+<div class="star-five1">
+</div>
+<div class="rectangle1">
+</div>
+<div class="triangle-bottomright1">
+</div>
+<div class="oval1">
+</div>
+<div class="pentagon1">
+</div>
+<div class="parallelogram1">
+</div>
+<h1 id="clock"></h1>
+ <p id="hex"></p>
+ <script src="clock.js"></script>
 
 </body>
 </html>
