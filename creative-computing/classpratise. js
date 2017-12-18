@@ -1,4 +1,0 @@
-document.addEventListener("mousemove", handleMouseMove)
-function handleMouseMove (evt) {
-	document.body.style.backgroundColor ="black"
-}

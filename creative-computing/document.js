@@ -1,7 +1,10 @@
 Function updateTime() {
+
+
 	var clockHolder = document.getElementById
 	("clock")
-	
+	console.log(clockHolder)
+
 	var now= new Date()
 	var seconds = now.getSeconds()
 	now = now.toTimeString()
@@ -19,5 +22,3 @@ Function updateTime() {
 
 	clockHolder.innerHTML = now 
 }
-
-setInterval(updateTime,1000)
