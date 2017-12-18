@@ -103,4 +103,4 @@ function popBubble($bubble) {
 
 function getRandom(upper) {
   return Math.random() * upper;
-}s
+}
